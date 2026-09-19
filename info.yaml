@@ -9,6 +9,8 @@ project:
   top_module: "tt_um_vga_racing"
   source_files:
     - "project.v"
+    - "hvsync_generator.v"
+    - "gamepad_pmod.v"
 pinout:
   ui[0]: "Steer Left"
   ui[1]: "Steer Right"
