@@ -39,7 +39,7 @@ module tt_um_GataLavApols_tcg_companion (
         if (!rst_n) begin
             // Reset state
             damage_counters <= 0;
-            lfsr <= 8'hACE; // Non-zero starting seed for RNG
+            lfsr <= 8'hAC; // Non-zero starting seed for RNG
             coin_result <= 0;
             btn_add_prev <= 0;
             btn_sub_prev <= 0;
